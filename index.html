@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS --><script>
+        // Authentication check before loading the main app
+        document.addEventListener('DOMContentLoaded', () => {
+            // Check if user is logged in
+            const currentUser = localStorage.getItem('currentUser');
+            
+            if (!currentUser) {
+                // Redirect to authentication page if not logged in
+                window.location.href = 'auth.html';
+            }
+        });
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Currency Converter</h1>
+        </header>
+        <main>
+            <form id="currency-form">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" value="100" required>
+                <div class="currency-selects">
+                    <label for="from-currency">From:</label>
+                    <select name="from-currency" id="from-currency-select"></select>
+                    <label for="to-currency">To:</label>
+                    <select name="to-currency" id="to-currency-select"></select>
+                </div>
+                <button type="submit">Convert</button>
+                <p id="result"></p>
+            </form>
+        </main>
+    </div><script>
+        function logout() {
+            // Remove current user from local storage
+            localStorage.removeItem('currentUser');
+            
+            // Redirect to authentication page
+            window.location.href = 'auth.html';
+        }
+    </script>
+
+    <script src="script.js"></script><script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>
