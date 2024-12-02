@@ -91,7 +91,7 @@ Open-source community
 
 💡 Quick Start
 bashCopy# Clone the repository
-git clone https://github.com/your-usernam/Sarah-Kasande/CURRENCY-APP.git
+git clone https://github.com/Sarah-Kasande/CURRENCY-APP.git
 
 # Navigate to project directory
 cd CURRENCY-APP
