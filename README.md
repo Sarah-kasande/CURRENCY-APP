@@ -1,39 +1,56 @@
 # CURRENCY-APP
 
 💱 Global Currency Converter 🌐
+
 🚀 Project Overview
+
 A simple, secure, and intuitive web application for real-time currency conversion powered by ExchangeRate-API.
+
 🌟 Key Features
 
 Real-time currency conversion
+
 Secure user authentication
+
 Multiple currency support
+
 Responsive design
+
 User-friendly interface
 
 🛠 Technologies Used
 
 HTML
+
 CSS
+
 Vanilla JavaScript
+
 ExchangeRate-API
 
 
 🔧 Installation Steps
-1. Clone the Repository
+
+ Clone the Repository
+ 
 bashCopygit clone https://github.com/sarah-kasande/CURRENCY-APP.git
+
 cd CURRENCY-APP
 
-2. Local Setup
+Local Setup
+   
 No additional installation required
+
 Simply open index.html in your web browser
 
-3.🔒 Authentication
+🔒 Authentication
 
-Default login credentials
+Default login credentialS
+
 Username: sarah kasande
 
 email : sarahkasande101@gmail.com
+
 Password: sarah2024umwari
 
 📦 Supported Currencies
@@ -83,6 +100,7 @@ Push to the branch
 Create a Pull Request
 
 📞 Support
+
 For issues or questions, please open a GitHub issue or contact the repository owner.
 🙏 Acknowledgments
 
